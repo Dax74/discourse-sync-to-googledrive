@@ -12,7 +12,7 @@ module DiscourseBackupToDrive
     def perform_sync
       full_path = backup.path
       filename = backup.filename
-      file = @session.upload
+      file = @session.upload(session, folder_name, filename, full_path, size)
       add_to_folder(@session, file)
       @session.root_collection.remove(file)
     end
