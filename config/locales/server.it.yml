@@ -1,0 +1,5 @@
+it:
+  site_settings:
+    discourse_sync_to_googledrive_enabled: "Abilita il plugin per i backup da drive. Dopo che lo avrai abilitato, funzionerà dal prossimo backup"
+    discourse_sync_to_googledrive_quantity: "Quanti backup verranno conservati su Google Drive"
+    discourse_sync_to_googledrive_api_key: "Il tuo Drive Generated Access Token"
